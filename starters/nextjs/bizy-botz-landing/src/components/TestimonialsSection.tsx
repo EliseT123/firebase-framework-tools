@@ -7,27 +7,27 @@ import { Star, Quote } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Michael Chen",
-    role: "Owner, Chen & Co Accounting",
+    name: "Sarah Mitchell",
+    role: "Owner, Digital Marketing Agency",
     location: "Melbourne, VIC",
     quote:
-      "We were spending 15 hours a week on data entry and client follow-ups. BIZY BOTZ automated it all. Now my team focuses on high-value advisory work. ROI paid for itself in 6 weeks.",
+      "I got 15 hours back every week. It's like hiring a whole team for the price of a gym membership.",
     rating: 5,
   },
   {
-    name: "Emma Thompson",
-    role: "Managing Director, Thompson Legal",
+    name: "James Thompson",
+    role: "Founder, Tech Startup",
     location: "Sydney, NSW",
     quote:
-      "The compliance automation alone is worth it. Document generation, client intake, billing—all handled. My practice runs smoother, clients are happier, and I actually sleep at night.",
+      "Finally, AI that doesn't feel like I need a computer science degree to use it.",
     rating: 5,
   },
   {
-    name: "James Murphy",
-    role: "Founder, Murphy's Building Supplies",
+    name: "Emma Davis",
+    role: "CEO, E-commerce Business",
     location: "Brisbane, QLD",
     quote:
-      "I was skeptical about AI, but these guys made it simple. Lead follow-up is instant, inventory tracking is automatic, and our sales are up 40%. Should've done this years ago.",
+      "We were skeptical. Then we automated our lead follow-up and revenue jumped 34% in 2 months.",
     rating: 5,
   },
 ];
@@ -53,9 +53,9 @@ export default function TestimonialsSection() {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Trusted by <span className="text-accent">Aussie Business Owners</span>
+            Loved by <span className="text-accent">Aussie Business Owners</span>
           </h2>
-          <p className="text-xl text-white/70 max-w-2xl mx-auto">
+          <p className="text-xl text-secondary max-w-2xl mx-auto">
             Real stories from real businesses that made the switch
           </p>
         </motion.div>
@@ -90,7 +90,7 @@ export default function TestimonialsSection() {
                 </div>
 
                 {/* Quote */}
-                <p className="text-white/80 leading-relaxed mb-6 italic">
+                <p className="text-secondary leading-relaxed mb-6 italic">
                   "{testimonial.quote}"
                 </p>
 
@@ -102,7 +102,7 @@ export default function TestimonialsSection() {
                   <div className="text-sm text-accent mb-1">
                     {testimonial.role}
                   </div>
-                  <div className="text-sm text-white/50">
+                  <div className="text-sm text-secondary/70">
                     {testimonial.location}
                   </div>
                 </div>
@@ -123,19 +123,19 @@ export default function TestimonialsSection() {
         >
           <div className="glass rounded-xl p-6">
             <div className="text-3xl font-bold text-accent mb-2">500+</div>
-            <div className="text-sm text-white/60">Businesses Automated</div>
+            <div className="text-sm text-secondary/80">Businesses Automated</div>
           </div>
           <div className="glass rounded-xl p-6">
             <div className="text-3xl font-bold text-accent mb-2">4.9/5</div>
-            <div className="text-sm text-white/60">Customer Rating</div>
+            <div className="text-sm text-secondary/80">Customer Rating</div>
           </div>
           <div className="glass rounded-xl p-6">
             <div className="text-3xl font-bold text-accent mb-2">98%</div>
-            <div className="text-sm text-white/60">Would Recommend</div>
+            <div className="text-sm text-secondary/80">Would Recommend</div>
           </div>
           <div className="glass rounded-xl p-6">
             <div className="text-3xl font-bold text-accent mb-2">100%</div>
-            <div className="text-sm text-white/60">Australian Made</div>
+            <div className="text-sm text-secondary/80">Australian Made</div>
           </div>
         </motion.div>
       </div>

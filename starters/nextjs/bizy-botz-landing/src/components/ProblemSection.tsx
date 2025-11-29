@@ -8,19 +8,19 @@ import { Clock, TrendingDown, Link2Off } from "lucide-react";
 const problems = [
   {
     icon: Clock,
-    title: "Drowning in Manual Tasks",
+    title: "Spending hours on repetitive tasks",
     description:
       "You're spending hours on repetitive work instead of growing your business. Data entry, invoicing, follow-ups—it never ends.",
   },
   {
     icon: TrendingDown,
-    title: "Missing Revenue Opportunities",
+    title: "Missing leads because you can't keep up",
     description:
       "Leads slip through the cracks. Follow-ups get forgotten. You know you're leaving money on the table but can't keep up.",
   },
   {
     icon: Link2Off,
-    title: "Tools That Don't Talk",
+    title: "Paying too much for tools that don't talk to each other",
     description:
       "Your CRM, accounting software, and other tools are islands. You're manually copying data between systems daily.",
   },
@@ -43,7 +43,7 @@ export default function ProblemSection() {
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             You're Too Busy to Be <span className="text-accent">This Busy</span>
           </h2>
-          <p className="text-xl text-white/70 max-w-2xl mx-auto">
+          <p className="text-xl text-secondary max-w-2xl mx-auto">
             Sound familiar? You're not alone. Most SMB owners waste 20+ hours a
             week on tasks AI could handle.
           </p>
@@ -68,7 +68,7 @@ export default function ProblemSection() {
 
               {/* Content */}
               <h3 className="text-2xl font-bold mb-4">{problem.title}</h3>
-              <p className="text-white/70 leading-relaxed">
+              <p className="text-secondary leading-relaxed">
                 {problem.description}
               </p>
             </motion.div>

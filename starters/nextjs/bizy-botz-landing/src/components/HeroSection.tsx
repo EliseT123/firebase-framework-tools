@@ -69,13 +69,13 @@ export default function HeroSection() {
 
           {/* Subheadline */}
           <motion.p
-            className="text-xl md:text-2xl text-white/80 mb-12 max-w-3xl mx-auto"
+            className="text-xl md:text-2xl text-secondary mb-12 max-w-3xl mx-auto"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4 }}
           >
             Australian-made AI automation that saves time, cuts costs,
-            and scales your business.
+            and scales your business—without the tech headaches.
           </motion.p>
 
           {/* CTA Buttons */}
@@ -102,22 +102,22 @@ export default function HeroSection() {
 
           {/* Trust Badges */}
           <motion.div
-            className="flex flex-wrap justify-center items-center gap-8 text-sm text-white/60"
+            className="flex flex-wrap justify-center items-center gap-8 text-sm text-secondary"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.6 }}
           >
             <div className="flex items-center gap-2">
               <CheckCircle2 className="w-4 h-4 text-accent" />
-              <span>100% Australian Owned</span>
+              <span>Australian-Based</span>
             </div>
             <div className="flex items-center gap-2">
               <CheckCircle2 className="w-4 h-4 text-accent" />
-              <span>30-Day Money Back</span>
+              <span>Data Secure</span>
             </div>
             <div className="flex items-center gap-2">
               <CheckCircle2 className="w-4 h-4 text-accent" />
-              <span>No Credit Card Required</span>
+              <span>100+ SMBs Automated</span>
             </div>
           </motion.div>
         </motion.div>

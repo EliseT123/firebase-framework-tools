@@ -14,6 +14,7 @@ const config: Config = {
           dark: "#1a0f2e",
           light: "#3d2b5e",
         },
+        secondary: "#E0D4F7", // Light purple for body text
         accent: {
           DEFAULT: "#FF6B35",
           light: "#ff8559",

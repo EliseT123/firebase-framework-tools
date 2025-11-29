@@ -82,9 +82,8 @@ export default function CapabilitiesSection() {
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             AI That Actually <span className="text-accent">Does the Work</span>
           </h2>
-          <p className="text-xl text-white/70 max-w-2xl mx-auto">
-            Not just another chatbot. BIZY BOTZ builds custom AI systems that
-            integrate with your existing tools and workflows.
+          <p className="text-xl text-secondary max-w-2xl mx-auto">
+            From finance tracking to content creation, we've got intelligent systems for every part of your business
           </p>
         </motion.div>
 
@@ -111,7 +110,7 @@ export default function CapabilitiesSection() {
               <h3 className="text-lg font-bold mb-2 group-hover:text-accent transition-colors">
                 {capability.title}
               </h3>
-              <p className="text-sm text-white/70 leading-relaxed">
+              <p className="text-sm text-secondary leading-relaxed">
                 {capability.description}
               </p>
 
@@ -128,7 +127,7 @@ export default function CapabilitiesSection() {
           animate={isInView ? { opacity: 1 } : { opacity: 0 }}
           transition={{ duration: 0.6, delay: 0.8 }}
         >
-          <p className="text-white/60 mb-4">
+          <p className="text-secondary/80 mb-4">
             Not sure what you need? We'll help you figure it out.
           </p>
           <button className="px-6 py-3 glass glass-hover rounded-lg font-semibold hover:text-accent transition-colors">

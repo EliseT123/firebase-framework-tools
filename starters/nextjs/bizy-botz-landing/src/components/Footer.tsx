@@ -16,8 +16,11 @@ export default function Footer() {
               </div>
               <span className="text-2xl font-bold">BIZY BOTZ</span>
             </div>
-            <p className="text-white/60 text-sm mb-6">
+            <p className="text-secondary text-sm mb-4">
               AI automation that gives Australian business owners their time back.
+            </p>
+            <p className="text-accent text-xs font-semibold mb-6">
+              Cheeky, Brainy, No-BS Aussie AI
             </p>
             {/* Social icons */}
             <div className="flex gap-4">
@@ -55,7 +58,7 @@ export default function Footer() {
           {/* Solutions */}
           <div>
             <h3 className="font-bold mb-4">Solutions</h3>
-            <ul className="space-y-3 text-sm text-white/60">
+            <ul className="space-y-3 text-sm text-secondary">
               <li>
                 <a href="#" className="hover:text-accent transition-colors">
                   Finance Automation
@@ -87,7 +90,7 @@ export default function Footer() {
           {/* Company */}
           <div>
             <h3 className="font-bold mb-4">Company</h3>
-            <ul className="space-y-3 text-sm text-white/60">
+            <ul className="space-y-3 text-sm text-secondary">
               <li>
                 <a href="#" className="hover:text-accent transition-colors">
                   About Us
@@ -119,7 +122,7 @@ export default function Footer() {
           {/* Legal */}
           <div>
             <h3 className="font-bold mb-4">Legal</h3>
-            <ul className="space-y-3 text-sm text-white/60">
+            <ul className="space-y-3 text-sm text-secondary">
               <li>
                 <a href="#" className="hover:text-accent transition-colors">
                   Privacy Policy
@@ -145,8 +148,8 @@ export default function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-white/50">
-          <p>© 2025 BIZY BOTZ. All rights reserved. Australian Business Number: XXX XXX XXX</p>
+        <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-secondary/80">
+          <p>© 2025 BIZY BOTZ. Australian-made AI automation.</p>
           <p className="flex items-center gap-2">
             Made with <span className="text-accent">♥</span> in Australia
           </p>

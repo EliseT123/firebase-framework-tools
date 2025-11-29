@@ -11,14 +11,11 @@ const stats = [
 ];
 
 const benefits = [
-  "Eliminate repetitive manual tasks",
-  "Never miss a follow-up or deadline",
-  "Reduce human error to near-zero",
-  "Scale without hiring more staff",
-  "Get real-time insights into your business",
-  "Free up time for strategic growth",
-  "Improve customer response times",
-  "Increase revenue per employee",
+  "AI that works 24/7 (no coffee breaks)",
+  "Done-for-you setup (we handle the tech)",
+  "Australian-based support (same timezone, mate)",
+  "Data privacy guaranteed (self-hosted options)",
+  "Pay for itself in 3 months or less",
 ];
 
 function AnimatedNumber({
@@ -68,9 +65,9 @@ export default function ResultsSection() {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Real Results from <span className="text-accent">Real Businesses</span>
+            What You'll Actually <span className="text-accent">Get</span>
           </h2>
-          <p className="text-xl text-white/70 max-w-2xl mx-auto">
+          <p className="text-xl text-secondary max-w-2xl mx-auto">
             Australian SMBs using BIZY BOTZ are saving time and money every single day
           </p>
         </motion.div>
@@ -101,7 +98,7 @@ export default function ResultsSection() {
                     suffix={stat.suffix}
                   />
                 </div>
-                <div className="text-lg text-white/80">{stat.label}</div>
+                <div className="text-lg text-secondary">{stat.label}</div>
               </motion.div>
             ))}
 
@@ -115,12 +112,12 @@ export default function ResultsSection() {
               }
               transition={{ duration: 0.6, delay: 0.6 }}
             >
-              <p className="text-white/70 italic">
+              <p className="text-secondary italic">
                 "BIZY BOTZ gave me back 3 days a week. I'm finally working{" "}
                 <span className="text-accent font-semibold">on</span> my business,
                 not <span className="text-accent font-semibold">in</span> it."
               </p>
-              <p className="text-sm text-white/50 mt-2">
+              <p className="text-sm text-secondary/70 mt-2">
                 — Sarah K., Digital Marketing Agency Owner
               </p>
             </motion.div>
@@ -150,7 +147,7 @@ export default function ResultsSection() {
                     <div className="flex-shrink-0 mt-1">
                       <CheckCircle2 className="w-6 h-6 text-accent group-hover:scale-110 transition-transform" />
                     </div>
-                    <span className="text-white/80 group-hover:text-white transition-colors">
+                    <span className="text-secondary group-hover:text-white transition-colors">
                       {benefit}
                     </span>
                   </motion.div>

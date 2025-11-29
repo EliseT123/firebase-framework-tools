@@ -9,9 +9,9 @@ const steps = [
   {
     icon: ClipboardList,
     number: "01",
-    title: "Take Your Free AI Audit",
+    title: "Take the Free AI Audit",
     description:
-      "Jump on a 30-minute call. We'll map your current workflows, identify bottlenecks, and show you exactly where AI can save you time and money.",
+      "5-minute quiz reveals where you're wasting time. Get instant insights into which tasks AI can handle for you.",
     highlight: "No sales pitch. Just value.",
   },
   {
@@ -53,9 +53,9 @@ export default function HowItWorksSection() {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            How It <span className="text-accent">Works</span>
+            Three Steps to a Business That <span className="text-accent">Runs Itself</span>
           </h2>
-          <p className="text-xl text-white/70 max-w-2xl mx-auto">
+          <p className="text-xl text-secondary max-w-2xl mx-auto">
             From overwhelmed to automated in three simple steps
           </p>
         </motion.div>
@@ -108,7 +108,7 @@ export default function HowItWorksSection() {
                 {/* Content */}
                 <div className="text-center">
                   <h3 className="text-2xl font-bold mb-4">{step.title}</h3>
-                  <p className="text-white/70 leading-relaxed mb-4">
+                  <p className="text-secondary leading-relaxed mb-4">
                     {step.description}
                   </p>
                   <div className="inline-block px-4 py-2 rounded-full bg-accent/10 border border-accent/30">
@@ -139,8 +139,8 @@ export default function HowItWorksSection() {
           <button className="px-8 py-4 bg-accent hover:bg-accent-light text-white font-semibold rounded-lg transition-all duration-300 shadow-lg hover:shadow-accent/50 hover:scale-105">
             Start Your Free AI Audit
           </button>
-          <p className="text-sm text-white/60 mt-4">
-            Takes 30 minutes. Worth months of your time.
+          <p className="text-sm text-secondary/80 mt-4">
+            Takes 5 minutes. Worth months of your time.
           </p>
         </motion.div>
       </div>

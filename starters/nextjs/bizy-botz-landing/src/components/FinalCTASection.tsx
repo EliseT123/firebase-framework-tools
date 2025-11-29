@@ -68,18 +68,18 @@ export default function FinalCTASection() {
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
             transition={{ delay: 0.3 }}
           >
-            Ready to Work <span className="text-accent">Smarter?</span>
+            Ready to Work Smarter, <span className="text-accent">Not Harder?</span>
           </motion.h2>
 
           {/* Subheadline */}
           <motion.p
-            className="text-xl md:text-2xl text-white/80 mb-12 max-w-2xl mx-auto"
+            className="text-xl md:text-2xl text-secondary mb-12 max-w-2xl mx-auto"
             initial={{ opacity: 0, y: 20 }}
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
             transition={{ delay: 0.4 }}
           >
-            Stop trading time for money. Let AI handle the busy work while you
-            focus on growth.
+            Take the free 5-minute AI Audit and see exactly where automation can
+            save you time and money.
           </motion.p>
 
           {/* Main CTA Button */}
@@ -101,22 +101,22 @@ export default function FinalCTASection() {
 
           {/* Trust signals */}
           <motion.div
-            className="flex flex-col sm:flex-row gap-6 justify-center items-center text-sm text-white/70"
+            className="flex flex-col sm:flex-row gap-6 justify-center items-center text-sm text-secondary"
             initial={{ opacity: 0 }}
             animate={isInView ? { opacity: 1 } : { opacity: 0 }}
             transition={{ delay: 0.6 }}
           >
             <div className="flex items-center gap-2">
               <CheckCircle2 className="w-4 h-4 text-accent" />
-              <span>Free 30-min consultation</span>
+              <span>No credit card</span>
             </div>
             <div className="flex items-center gap-2">
               <CheckCircle2 className="w-4 h-4 text-accent" />
-              <span>No obligations</span>
+              <span>No obligation</span>
             </div>
             <div className="flex items-center gap-2">
               <CheckCircle2 className="w-4 h-4 text-accent" />
-              <span>Custom automation plan</span>
+              <span>Just insights</span>
             </div>
           </motion.div>
 
@@ -130,7 +130,7 @@ export default function FinalCTASection() {
             <p className="text-white/90">
               <span className="text-accent font-bold">Average client saves 23 hours/week</span>
               <br />
-              <span className="text-sm text-white/70">
+              <span className="text-sm text-secondary">
                 What would you do with an extra day every week?
               </span>
             </p>
